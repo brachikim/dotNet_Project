@@ -1,0 +1,15 @@
+﻿<Window x:Class="PL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PL"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Image HorizontalAlignment="Center" Height="447" Margin="0,-16,0,0" VerticalAlignment="Top" Width="800" Source="C:\Users\The user\Source\Repos\dotNet5784_1671_6466\PL\Task\pic.jpg" Stretch="UniformToFill"/>
+        <Button Content="Initialization" Margin="550,240,31,90" Click="btnInitialization_Click" FontWeight="Bold" FontSize="16" Background="CadetBlue"/>
+        <Button Content="Handle Engineers" Margin="293,240,287,90" Click="btnEngineers_Click" FontWeight="Bold" FontSize="16" Background="CadetBlue"/>
+        <Button Content="Handle Tasks" Margin="33,240,548,90" Click="btnTasks_Click" FontWeight="Bold" FontSize="16" Background="CadetBlue" />
+    </Grid>
+</Window>
